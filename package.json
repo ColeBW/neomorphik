@@ -1,0 +1,17 @@
+{
+  "name": "neomorphik",
+  "version": "1.0.0",
+  "description": "A neomorphic styling library for React and Styled Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "neo-test"
+  },
+  "author": "Cole Lewis",
+  "license": "ISC",
+  "devDependencies": {
+    "styled-components": "^5.0.0"
+  },
+  "peerDependencies" : {
+  "styled-components": ">= 4"
+  }
+}
