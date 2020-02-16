@@ -25,7 +25,7 @@ import {
     NeoTextAreaDarkInverted
 } from './public/styles'
 
-module.exports = { 
+export { 
     NeoButton,
     NeoDiv,
     NeoSpan,
