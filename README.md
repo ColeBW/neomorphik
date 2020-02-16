@@ -1,49 +1,64 @@
 # Neomorphik
 
-This package provides a library with Neomorphism styling.
+This package provides a library with Neomorphism Styled Components.
 
-## Standards :
 
-##### Update Changelog in README.md
-v#.#.# List of changes
+## Install :
 
-##### Update version in package.json
-"version": "v#.#.#"
+##### `npm install neomorphik`
 
-##### Commit Message
-v#.#.# - short summary
+Install as an NPM module.
 
-##### PR Title
-v#.#.# - TICKET-# - Short Summary
 
 ## Usage :
 
-##### `npm publish`
-Publish as npm package. Run yarn build and ensure you have followed the standards section above before running this command and publishing to NPM.
+##### `import { NeoButton } from 'neomorphik';`
 
-##### `package.json`
-Reference as a module :
-```
-"dependencies": {
-    ...
-    "@neomorphik": "https://github.com/colebw/neomorphik.git",
-    ...
-}
-```
+##### `<NeoButton>Click Me</NeoButton>;`
 
-## Changelog
 
-##### 1.0.0
-  - Initial commit.
+## Available Components :
 
-##### 1.0.1
-  - Update README.
+### Light Theme :
 
-##### 1.0.2
-  - Export Modules.
+Div - `<NeoDiv />`  
+Span - `<NeoSpan />`  
+Button - `<NeoButton />`  
+Input - `<NeoInput />`  
+Select - `<NeoSelect />`  
+Text Area - `<NeoTextArea />`  
 
-##### 1.0.3
-  - Export Modules.
+### Light Theme Inverted :
 
-##### 1.0.4
-  - Remove not needed files.
+Div - `<NeoDivInverted />`  
+Span - `<NeoSpanInverted />`  
+Button - `<NeoButtonInverted />`  
+Input - `<NeoInputInverted />`  
+Select - `<NeoSelectInverted />`  
+Text Area - `<NeoTextAreaInverted />`  
+
+### Dark Theme :
+
+Div - `<NeoDivDark />`  
+Span - `<NeoSpanDark />`  
+Button - `<NeoButtonDark />`  
+Input - `<NeoInputDark />`  
+Select - `<NeoSelectDark />`  
+Text Area - `<NeoTextAreaDark />`  
+
+### Dark Theme Inverted :
+
+Div - `<NeoDivDarkInverted />`  
+Span - `<NeoSpanDarkInverted />`  
+Button - `<NeoButtonDarkInverted />`  
+Input - `<NeoInputDarkInverted />`  
+Select - `<NeoSelectDarkInverted />`  
+Text Area - `<NeoTextAreaDarkInverted />`  
+
+
+## Available Mixins :
+
+`${Neo}`  
+`${NeoInverted}`  
+`${NeoDark}`  
+`${NeoDarkInverted}`

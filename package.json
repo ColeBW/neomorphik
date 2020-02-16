@@ -1,11 +1,20 @@
 {
   "name": "neomorphik",
-  "version": "1.0.4",
-  "description": "A neomorphic styling library for React and Styled Components",
+  "version": "1.0.9",
+  "description": "A neomorphic styling library for Styled Components and React",
   "main": "index.js",
   "scripts": {
     "test": "neo-test"
   },
+  "keywords": [
+    "Neomorphism",
+    "Neomorphik",
+    "StyledComponents",
+    "React",
+    "UILibrary",
+    "NeomorphismUILibrary",
+    "NeomorphismNPMPackage"
+  ],
   "author": "Cole Lewis",
   "license": "ISC",
   "devDependencies": {
