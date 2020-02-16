@@ -35,3 +35,9 @@ Reference as a module :
 
 ##### 1.0.0
   - Initial commit.
+
+##### 1.0.1
+  - Update README.
+
+##### 1.0.2
+  - Export Modules.
