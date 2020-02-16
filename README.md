@@ -26,7 +26,7 @@ Reference as a module :
 ```
 "dependencies": {
     ...
-    "@neomorph": "https://github.com/colebw/neomorphik.git",
+    "@neomorphik": "https://github.com/colebw/neomorphik.git",
     ...
 }
 ```
