@@ -41,3 +41,9 @@ Reference as a module :
 
 ##### 1.0.2
   - Export Modules.
+
+##### 1.0.3
+  - Export Modules.
+
+##### 1.0.4
+  - Remove not needed files.
