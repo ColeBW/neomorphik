@@ -1,0 +1,8 @@
+{
+  "@primary": "#E9E7E9",
+  "@glare": "#fff",
+  "@shadow": "rgba(0, 0, 0, 0.2)",
+  "@primary-dark": "#2C2C2C",
+  "@glare-dark": "#3A373B",
+  "@shadow-dark": "rgba(0, 0, 0, 0.4)"
+}
