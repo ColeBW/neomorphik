@@ -1,4 +1,4 @@
-# Neomorph
+# Neomorphik
 
 This package provides a library with Neomorphism styling.
 
