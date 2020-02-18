@@ -1,4 +1,10 @@
 import {
+    Background,
+    BackgroundDark,
+    Neo,
+    NeoInverted,
+    NeoDark,
+    NeoDarkInverted,
     NeoButton,
     NeoDiv,
     NeoSpan,
@@ -25,7 +31,13 @@ import {
     NeoTextAreaDarkInverted
 } from './public/styles'
 
-export { 
+export {
+    Background,
+    BackgroundDark,
+    Neo,
+    NeoInverted,
+    NeoDark,
+    NeoDarkInverted,
     NeoButton,
     NeoDiv,
     NeoSpan,
