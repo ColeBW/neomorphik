@@ -147,7 +147,7 @@ Add these mixins to customize your components:
 
 ```javascript
 import styled from '@emotion/styled';
-import Background from 'neomorphik';
+import NeoDark from 'neomorphik';
 
 const MyComponent = styled.div`
     ${NeoDark};
