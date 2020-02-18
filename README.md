@@ -58,6 +58,13 @@ Text Area - `<NeoTextAreaDarkInverted />`
 
 ## Available Mixins :
 
+Add these mixins to your parent containers:
+
+`${Background}`  
+`${BackgroundDark}`  
+
+Add these mixins to customize your components:
+
 `${Neo}`  
 `${NeoInverted}`  
 `${NeoDark}`  
