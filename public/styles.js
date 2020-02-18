@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import variables from './variables.json'
 
+export const Background = `
+  background-color: ${variables['@background']};
+`;
+
 export const Neo = `
   background-color: ${variables['@primary']};
   border: none;
@@ -90,6 +94,10 @@ export const NeoSelectInverted = styled.select`
 `;
 
 // Dark Theme
+
+export const BackgroundDark = `
+  background-color: ${variables['@background-dark']};
+`;
 
 export const NeoDark = `
   background-color: ${variables['@primary-dark']};
