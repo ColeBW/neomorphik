@@ -5,16 +5,29 @@ This package provides a library with Neomorphism Styled Components.
 
 ## Install :
 
-##### `npm install neomorphik`
-
-Install as an NPM module.
+`npm i neomorphik`
 
 
 ## Usage :
 
-##### `import { NeoButton } from 'neomorphik';`
+### Components :  
 
-##### `<NeoButton>Click Me</NeoButton>;`
+```javascript
+import NeoButton from 'neomorphik';
+
+<NeoButton>Click Here</NeoButton>;
+```
+
+### Mixins :  
+
+```javascript
+import styled from 'styled-components';
+import BackgroundDark from 'neomorphik';
+
+const Container = styled.div`
+  ${BackgroundDark}
+`;
+```
 
 
 ## Available Components :
@@ -33,9 +46,9 @@ import NeoButton from 'neomorphik';
 
 const Example = () => {
     return (
-      <div>
+      <>
         <NeoButton>Click Here</NeoButton>
-      </div>
+      </>
     );
   }
 
@@ -56,9 +69,9 @@ import NeoButtonInverted from 'neomorphik';
 
 const Example = () => {
     return (
-      <div>
+      <>
         <NeoButtonInverted>Click Here</NeoButtonInverted>
-      </div>
+      </>
     );
   }
 
@@ -79,9 +92,9 @@ import NeoButtonDark from 'neomorphik';
 
 const Example = () => {
     return (
-      <div>
+      <>
         <NeoButtonDark>Click Here</NeoButtonDark>
-      </div>
+      </>
     );
   }
 
@@ -102,9 +115,9 @@ import NeoButtonDarkInverted from 'neomorphik';
 
 const Example = () => {
     return (
-      <div>
+      <>
         <NeoButtonDarkInverted>Click Here</NeoButtonDarkInverted>
-      </div>
+      </>
     );
   }
 
@@ -120,7 +133,7 @@ Add these mixins to your parent containers:
 `${BackgroundDark}`  
 
 ```javascript
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import Background from 'neomorphik';
 
 const MyContainer = styled.div`
@@ -146,7 +159,7 @@ Add these mixins to customize your components:
 `${NeoDarkInverted}`
 
 ```javascript
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import NeoDark from 'neomorphik';
 
 const MyComponent = styled.div`
