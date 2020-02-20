@@ -36,18 +36,15 @@ export const NeoSpan = styled.span`
 
 export const NeoInput = styled.input`
   ${Neo};
-  margin: 5px;
 `;
 
 export const NeoTextArea = styled.textarea`
   ${Neo};
-  margin: 5px;
 `;
 
 export const NeoSelect = styled.select`
   ${Neo};
   height: 33px;
-  margin: 5px;
 `;
 
 // Inverted
@@ -83,18 +80,15 @@ export const NeoSpanInverted = styled.span`
 
 export const NeoInputInverted = styled.input`
   ${NeoInverted};
-  margin: 5px;
 `;
 
 export const NeoTextAreaInverted = styled.textarea`
   ${NeoInverted};
-  margin: 5px;
 `;
 
 export const NeoSelectInverted = styled.select`
   ${NeoInverted};
   height: 33px;
-  margin: 5px;
 `;
 
 // Dark Theme
@@ -134,18 +128,15 @@ export const NeoSpanDark = styled.span`
 
 export const NeoInputDark = styled.input`
   ${NeoDark};
-  margin: 5px;
 `;
 
 export const NeoTextAreaDark = styled.textarea`
   ${NeoDark};
-  margin: 5px;
 `;
 
 export const NeoSelectDark = styled.select`
   ${NeoDark};
   height: 33px;
-  margin: 5px;
 `;
 
 // Dark Inverted
@@ -181,16 +172,13 @@ export const NeoSpanDarkInverted = styled.span`
 
 export const NeoInputDarkInverted = styled.input`
   ${NeoDarkInverted};
-  margin: 5px;
 `;
 
 export const NeoTextAreaDarkInverted = styled.textarea`
   ${NeoDarkInverted};
-  margin: 5px;
 `;
 
 export const NeoSelectDarkInverted = styled.select`
   ${NeoDarkInverted};
   height: 33px;
-  margin: 5px;
 `;

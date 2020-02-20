@@ -1,6 +1,6 @@
 {
   "name": "neomorphik",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A neomorphic styling library for Styled Components and React",
   "main": "index.js",
   "scripts": {
